@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button::after {
+            border-radius: 40px;
+            width: 24px;
+            height: 24px;
+            color: rgba(0, 128, 0, 0.8);
+        }
+        /*.neon {
+            text-align: center;
+            font-size: 45pt;
+            color: blueviolet;
+            text-shadow: 0px 0px 5px blueviolet,
+                        0px 0px 25px blueviolet,
+                        0px 0px 50px blue,
+                        0px 0px 75px blue,
+                        0px 0px 100px blueviolet;;
+            animation: wobble 2s infinite linear;
+        }
+        @keyframes wobble {
+          0%  {
+            transform: translatex(0%);
+          }
+          15% {
+            transform: translateX(-25%) rotate(-5deg);
+          }
+        }*/
+    </style>
+    <script>
+        function clicar() {
+            document.getElementByClassName('botao1')
+            
+            const botao = document.querySelector("button")
+            const resultado = getComputedStyle(botao, ":after").content
+            alert()
+        }
+    </script>
+</head>
+<body>
+    <header class="titulo">BOTÕES USANDO CSS E JAVASCRIPT</header>
+
+    <div class="dupla1">
+        <div class="caixa1">
+            <button class="botao1" onclick="clicar()"></button>
+            <button class="bolinha1" onclick="clicar()"></button>
+            <h2 class="info">NORMAL</h2>
+        </div>
+        <div class="caixa2">
+            <button class="botao2" onclick="clicar()"></button>
+            <button class="bolinha2" onclick="clicar()"></button>
+            <h2 class="info">TRANSPARENTE</h2>
+        </div>
+    </div>
+
+    <div class="dupla2">
+        <div class="caixa3">
+            <button class="botao3" onclick="clicar()"></button>
+            <button class="bolinha3" onclick="clicar()"></button>
+            <h2 class="info">SIM & NÃO</h2>
+        </div>
+        <div class="caixa4">
+            <button class="botao4" onclick="clicar()"></button>
+            <button class="bolinha4" onclick="clicar()"></button>
+            <h2 class="info">GRAVIDADE</h2>
+        </div>
+    </div>
+    <div class="dupla3">
+        <div class="caixa5">
+            <button class="botao5" onclick="clicar()"></button>
+            <button class="bolinha5" onclick="clicar()"></button>
+            <h2 class="info">PANQUECA</h2>
+        </div>
+        <div class="caixa6">
+            <button class="botao6" onclick="clicar()"></button>
+            <button class="bolinha6" onclick="clicar()"></button>
+            <h2 class="info">NORMAL</h2>
+        </div>
+    </div>
+    
+    <div id="snake"></div>
+    <div id="food"></div>
+    <script>
+        // Obtenha referências para os elementos HTML da cobrinha e da comida
+        const snake = document.getElementById('snake');
+        const food = document.getElementById('food');
+
+        // Defina a posição inicial da cobrinha e da comida
+        let snakeX = 0;
+        let snakeY = 0;
+        let foodX = 100;
+        let foodY = 100;
+
+        // Defina a velocidade da cobrinha
+        const snakeSpeed = 20;
+
+        // Inicie o loop de animação
+        setInterval(function() {
+
+        })
+
+        // Atualize a posição da cobrinha
+        snakeX += snakeSpeed;
+        snakeY += snakeSpeed;
+
+        // Aplique a nova posição à cobrinha
+        snake.style.left = snakeX + 'px';
+        snake.style.top = snakeY + 'px';
+
+        // Verifique se a cobrinha alcançou a comida
+        if (snakeX == foodX && snakeY == foodY) {
+
+        }
+
+        // "Coma" a comida, removendo-a da tela
+        food.style.display = 'none';
+
+        // Crie uma nova comida
+
+    </script>
+
+</body>
+</html>

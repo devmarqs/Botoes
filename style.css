@@ -1,0 +1,260 @@
+.info {
+    position: relative;
+    left: 290px;
+    top: 275px;
+    font-size: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.601);
+}
+
+body {
+    background-color: beige;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: palevioletred;
+    font-size: 25pt;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.dupla1 {
+    display: flex;
+    justify-content: center;
+}
+
+.dupla2 {
+    display: flex;
+    justify-content: center;
+}
+
+.dupla3 {
+    display: flex;
+    justify-content: center;
+}
+
+.dupla1 > div {
+    margin: 0px;
+    fill: 20px;
+}
+
+.dupla2 > div {
+    margin: 0px;
+    fill: 20px;
+}
+
+.dupla3 > div {
+    margin: 0px;
+    fill: 20px;
+}
+
+.caixa1 {
+    margin-inline-start: 200px;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(221, 194, 134);
+}
+
+.caixa2 {
+    margin: 150px auto;
+    padding-top: 0px;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(222, 135, 151);
+}
+
+.caixa3 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(135, 169, 221);
+}
+
+.caixa4 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(197, 222, 135);
+}
+
+.caixa5 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(135, 221, 209);
+}
+
+.caixa6 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(195, 134, 221) 
+}
+
+
+
+.botao1 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 33px;
+    border-radius: 40px;
+    border: 2.3px solid rgba(0, 0, 0, 0.155);
+    box-shadow: 0px -2.9px 1px  rgba(182, 172, 113, 0.797);
+    color: rgba(221, 194, 134, 0.741);
+    background-color: rgb(75, 175, 79);
+}
+
+button:hover {
+    background-color: green;
+}
+
+.bolinha1 {
+    position: relative;
+    top: 162.2px;
+    left: 97px;
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.151);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: aliceblue;
+    background-color: white;
+}
+
+.botao2 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 35px;
+    border-radius: 40px;
+    border: 2.6px solid;
+    color: white;
+    background-color: transparent;
+}
+
+.bolinha2 {
+    position: relative;
+    top: 162.3px;
+    left: 96.5px;
+    width: 24px;
+    height: 24.5px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+}
+
+.botao3 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 33px;
+    border-radius: 40px;
+    border: 2px solid;
+    color: rgb(45, 57, 77);;
+    background-color: rgb(45, 57, 77);
+}
+
+.bolinha3 {
+    position: relative;
+    top: 162.2px;
+    left: 97px;
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    border: 1px solid rgba(221, 239, 255, 0.801);
+    color: aliceblue;
+    background-color: white;
+}
+
+.botao4 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 34px;
+    border-radius: 40px;
+    border: 2px solid;
+    color: rgb(45, 57, 77);;
+    background-color: rgb(45, 57, 77);
+}
+
+.bolinha4 {
+    position: relative;
+    top: 161px;
+    left: 54px;
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    border: 2px solid rgb(130, 199, 142);
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.botao5 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 34px;
+    border-radius: 40px;
+    border: 2px solid;
+    color: rgb(45, 57, 77);;
+    background-color: rgb(45, 57, 77);
+}
+
+.bolinha5 {
+    position: relative;
+    top: 162px;
+    left: 54px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 3px 3px 3px rgb(248, 187, 122);
+    border-radius: 40px;
+    border: 1px transparent;
+    color: aliceblue;
+    background-color: rgb(226, 124, 49);
+}
+
+.botao6 {
+    position: relative;
+    top: 165px;
+    left: 130px;
+    width: 75px;
+    height: 34px;
+    border-radius: 40px;
+    border: 2px solid;
+    color: rgb(45, 57, 77);;
+    background-color: rgb(45, 57, 77);
+}
+
+.bolinha6 {
+    position: relative;
+    top: 162px;
+    left: 54px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 3px 3px 3px rgb(248, 187, 122);
+    border-radius: 40px;
+    border: 1px transparent;
+    color: aliceblue;
+    background-color: rgb(226, 124, 49);
+}
+
+#snake {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+#food {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+}
